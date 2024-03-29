@@ -1,0 +1,71 @@
+body {
+    background-color: #f0f0f0; /* Cinza claro */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ff0000; /* Vermelho */
+    color: #fff; /* Branco */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px; /* Ajustando a altura da barra de navegação */
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #ccc; /* Cinza */
+    color: #000; /* Preto */
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.content p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+a {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ff0000; /* Vermelho */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid #ff0000; /* Borda vermelha */
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #990000; /* Vermelho escuro */
+}
